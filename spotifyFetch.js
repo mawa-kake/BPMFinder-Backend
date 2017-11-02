@@ -42,8 +42,8 @@ const shapeData = (trackJSON) => {
 }
 
 export const getTracks = (songName) => {
-    const client_id = 'e1b3a4cc8dc34524b3235860a58784d4'
-    const client_secret = 'd17c7fa7c362464fb7ca92aa2e0deff5'
+    const client_id = 'ID GOES HERE'
+    const client_secret = 'SECRET GOES HERE'
     const header = {"Authorization" : 'Basic ' + (base64.encode(client_id + ':' + client_secret)).toString(),'Content-Type':'application/x-www-form-urlencoded'}
 
     //Get access token then get tracks
